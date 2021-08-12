@@ -1,0 +1,1007 @@
+(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ [K(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ conda activate myenv2
+(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ py[K[Ks[Kpython main,py[K[K[K[Kn.py
+2021-08-10 17:55:54.822772: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-10 17:55:54.822825: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-10 17:55:57.238631: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-10 17:55:57.238681: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-10 17:55:57.238709: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-10 17:55:57.238947: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Traceback (most recent call last):
+  File "main.py", line 40, in <module>
+    base_url = get_base_url(port)
+NameError: name 'get_base_url' is not defined
+(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clearpython main.py
+2021-08-10 17:56:44.292592: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-10 17:56:44.292639: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-10 17:56:46.950309: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-10 17:56:46.950359: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-10 17:56:46.950404: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-10 17:56:46.950635: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+2021-08-10 17:56:49.581404: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-10 17:56:49.581450: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-10 17:56:52.222150: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-10 17:56:52.222204: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-10 17:56:52.222232: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-10 17:56:52.222454: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 135-497-679
+127.0.0.1 - - [10/Aug/2021 17:57:15] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/lotr.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/17013260-0.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/elves.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/0fc6083eccf5e0293dc8951d49eb6c469251119911892127dfc51512e72cd7f87823954d696606f861c7a9939c898f122a9582ed4dd91c95b69c96_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/a4c355262897d45cdd27e601688f31024b088194c4efa5bf43eab181df9559972da59117d6f22d59730b49708ca4d04476ee1834546500527d9a20_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/5201f2386aa78cd83aa134ecab8cc9d52601e5a99ab252baf9961514e36717018a0350a5e4afac407d3a8116373263e6a4519c8a8836e23d357fda_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Aug/2021 17:57:15] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/IMG_91832.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Aug/2021 17:57:17] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/results HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 17:57:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Write-your-story-with-AI.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/duck2.gif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 17:57:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+2021-08-10 17:57:21.068508: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-08-10 17:57:21.069027: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2300060000 Hz
+this news headline is sarcastic
+127.0.0.1 - - [10/Aug/2021 17:57:21] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:02:53] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/elves.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/lotr.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/17013260-0.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/0fc6083eccf5e0293dc8951d49eb6c469251119911892127dfc51512e72cd7f87823954d696606f861c7a9939c898f122a9582ed4dd91c95b69c96_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/IMG_91832.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/a4c355262897d45cdd27e601688f31024b088194c4efa5bf43eab181df9559972da59117d6f22d59730b49708ca4d04476ee1834546500527d9a20_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Aug/2021 18:02:54] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/5201f2386aa78cd83aa134ecab8cc9d52601e5a99ab252baf9961514e36717018a0350a5e4afac407d3a8116373263e6a4519c8a8836e23d357fda_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [10/Aug/2021 18:02:55] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/results HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:02:56] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:56] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:56] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:56] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Write-your-story-with-AI.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:56] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:56] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/duck2.gif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:02:56] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:03:01] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Write-your-story-with-AI.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:03:01] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2021 18:03:11] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/results HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:03:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:03:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:03:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Write-your-story-with-AI.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:03:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/duck2.gif HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:03:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:03:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2021 18:03:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+this news headline is sarcastic
+127.0.0.1 - - [10/Aug/2021 18:03:20] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is not sarcastic
+127.0.0.1 - - [10/Aug/2021 18:05:39] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is not sarcastic
+127.0.0.1 - - [10/Aug/2021 18:06:28] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is not sarcastic
+127.0.0.1 - - [10/Aug/2021 18:07:17] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is not sarcastic
+127.0.0.1 - - [10/Aug/2021 18:07:50] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is not sarcastic
+127.0.0.1 - - [10/Aug/2021 18:15:03] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is sarcastic
+127.0.0.1 - - [10/Aug/2021 18:16:26] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ (base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ conda activate myenv2
+(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ python main.py
+2021-08-11 14:36:50.736537: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-11 14:36:50.736598: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-11 14:36:53.256424: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-11 14:36:53.256478: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-11 14:36:53.256506: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-11 14:36:53.256757: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+2021-08-11 14:36:55.671149: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-11 14:36:55.671191: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-11 14:36:58.164347: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-11 14:36:58.164407: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-11 14:36:58.164433: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-11 14:36:58.164683: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 135-497-679
+127.0.0.1 - - [11/Aug/2021 14:37:10] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 14:37:11] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:11] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 14:37:11] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:11] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:11] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/lotr.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 14:37:11] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:11] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/elves.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 14:37:12] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/17013260-0.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:12] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/a4c355262897d45cdd27e601688f31024b088194c4efa5bf43eab181df9559972da59117d6f22d59730b49708ca4d04476ee1834546500527d9a20_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:12] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/0fc6083eccf5e0293dc8951d49eb6c469251119911892127dfc51512e72cd7f87823954d696606f861c7a9939c898f122a9582ed4dd91c95b69c96_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:12] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/5201f2386aa78cd83aa134ecab8cc9d52601e5a99ab252baf9961514e36717018a0350a5e4afac407d3a8116373263e6a4519c8a8836e23d357fda_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:12] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/IMG_91832.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:16] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/results HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 14:37:16] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:16] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:16] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:16] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:16] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Write-your-story-with-AI.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:16] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/duck2.gif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:16] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/17013260-0.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/elves.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/lotr.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/a4c355262897d45cdd27e601688f31024b088194c4efa5bf43eab181df9559972da59117d6f22d59730b49708ca4d04476ee1834546500527d9a20_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/0fc6083eccf5e0293dc8951d49eb6c469251119911892127dfc51512e72cd7f87823954d696606f861c7a9939c898f122a9582ed4dd91c95b69c96_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/5201f2386aa78cd83aa134ecab8cc9d52601e5a99ab252baf9961514e36717018a0350a5e4afac407d3a8116373263e6a4519c8a8836e23d357fda_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:17] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/IMG_91832.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/results HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 14:37:18] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Write-your-story-with-AI.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:18] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/duck2.gif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:18] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:18] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:18] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:18] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:19] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:19] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 14:37:19] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:19] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:19] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:19] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:19] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/lotr.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/elves.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/17013260-0.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/0fc6083eccf5e0293dc8951d49eb6c469251119911892127dfc51512e72cd7f87823954d696606f861c7a9939c898f122a9582ed4dd91c95b69c96_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/5201f2386aa78cd83aa134ecab8cc9d52601e5a99ab252baf9961514e36717018a0350a5e4afac407d3a8116373263e6a4519c8a8836e23d357fda_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/a4c355262897d45cdd27e601688f31024b088194c4efa5bf43eab181df9559972da59117d6f22d59730b49708ca4d04476ee1834546500527d9a20_1280.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[33mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/IMG_91832.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/results HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Write-your-story-with-AI.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/duck2.gif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:20] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:31] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 14:37:31] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Write-your-story-with-AI.css HTTP/1.1[0m" 304 -
+2021-08-11 14:41:24.686655: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-08-11 14:41:24.687133: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2300060000 Hz
+this news headline is sarcastic
+127.0.0.1 - - [11/Aug/2021 14:41:25] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ [K(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ [K(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ [K(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ conda actica[K[Kvate myenv2
+(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ python main.py
+2021-08-11 18:26:12.291809: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-11 18:26:12.291857: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-11 18:26:14.920890: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-11 18:26:14.920938: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-11 18:26:14.920973: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-11 18:26:14.921197: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+2021-08-11 18:26:17.393735: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-11 18:26:17.393782: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-11 18:26:20.035036: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-11 18:26:20.035090: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-11 18:26:20.035129: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-11 18:26:20.035374: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 135-497-679
+127.0.0.1 - - [11/Aug/2021 18:26:35] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:35] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:35] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:35] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:35] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:35] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:35] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:35] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:35] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:35] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:36] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:36] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:36] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:36] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:36] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:26:36] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1" 200 -
+2021-08-11 18:26:57.450545: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-08-11 18:26:57.451052: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2300060000 Hz
+this news headline is sarcastic
+127.0.0.1 - - [11/Aug/2021 18:26:57] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is sarcastic
+127.0.0.1 - - [11/Aug/2021 18:26:57] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is sarcastic
+127.0.0.1 - - [11/Aug/2021 18:27:13] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is sarcastic
+127.0.0.1 - - [11/Aug/2021 18:27:13] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:52] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:56] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:27:56] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:04] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:04] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:04] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:04] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:04] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:04] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:04] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:04] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:05] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:05] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:05] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:05] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:05] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:05] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:05] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:05] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:09] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:28:09] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:09] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:09] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:09] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:09] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:09] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:09] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:09] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:10] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:10] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:10] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:10] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:10] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:10] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:28:10] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+this news headline is sarcastic
+127.0.0.1 - - [11/Aug/2021 18:28:13] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is sarcastic
+127.0.0.1 - - [11/Aug/2021 18:28:13] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is not sarcastic
+127.0.0.1 - - [11/Aug/2021 18:28:45] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+this news headline is not sarcastic
+127.0.0.1 - - [11/Aug/2021 18:28:45] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+ * Detected change in '/projects/b7079eaa-6991-47f3-a04a-aa855f33bee7/Final_Project/nlp-writer-scaffold/app/main.py', reloading
+ * Restarting with stat
+2021-08-11 18:30:32.169880: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-11 18:30:32.169927: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-11 18:30:34.788671: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-11 18:30:34.788725: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-11 18:30:34.788769: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-11 18:30:34.789013: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 135-497-679
+127.0.0.1 - - [11/Aug/2021 18:32:40] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:32:40] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:40] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:40] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:40] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:40] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:40] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:40] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:40] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:41] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:41] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:41] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:41] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:41] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:41] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:32:41] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+2021-08-11 18:32:43.555241: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-08-11 18:32:43.555763: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2300060000 Hz
+This news headline is not sarcastic!
+127.0.0.1 - - [11/Aug/2021 18:32:44] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [11/Aug/2021 18:32:44] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+ * Detected change in '/projects/b7079eaa-6991-47f3-a04a-aa855f33bee7/Final_Project/nlp-writer-scaffold/app/main.py', reloading
+ * Restarting with stat
+2021-08-11 18:32:47.110729: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-11 18:32:47.110774: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-11 18:32:49.690434: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-11 18:32:49.690484: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-11 18:32:49.690521: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-11 18:32:49.690745: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 135-497-679
+127.0.0.1 - - [11/Aug/2021 18:34:38] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+2021-08-11 18:34:43.773223: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-08-11 18:34:43.773659: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2300060000 Hz
+This news headline is sarcastic!
+127.0.0.1 - - [11/Aug/2021 18:34:44] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is sarcastic!
+127.0.0.1 - - [11/Aug/2021 18:34:44] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:29] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:29] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:29] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:36:30] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:11] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:12] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:37:13] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1" 200 -
+This news headline is sarcastic!
+127.0.0.1 - - [11/Aug/2021 18:37:19] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is sarcastic!
+127.0.0.1 - - [11/Aug/2021 18:37:19] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:45:22] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [11/Aug/2021 18:46:20] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:21] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [11/Aug/2021 18:46:22] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1" 200 -
+(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ [K(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ c;ear
+bash: c: command not found
+bash: ear: command not found
+(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ conda activate myenv
+(myenv) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ python ,aomn[K[K[K[K[Kmain.py
+2021-08-12 15:32:47.780673: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-12 15:32:47.780716: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-12 15:32:50.371897: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-12 15:32:50.371946: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-12 15:32:50.371974: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-12 15:32:50.372200: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+2021-08-12 15:32:52.830523: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-12 15:32:52.830567: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-12 15:32:55.394237: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-12 15:32:55.394288: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-12 15:32:55.394316: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-12 15:32:55.394541: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 123-666-184
+cle   127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:18] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:38] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:39] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:39] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:39] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:39] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:39] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:39] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:39] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:39] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:40] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:40] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:40] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:40] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:40] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:40] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:40] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:41] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:41] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:41] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:41] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:41] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:33:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1" 200 -
+^C(myenv) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(myenv) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ conda deactivate
+(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ conda activate myenv2
+(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ python main.py
+2021-08-12 15:36:07.207572: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-12 15:36:07.207618: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-12 15:36:09.837649: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-12 15:36:09.837699: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-12 15:36:09.837728: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-12 15:36:09.837954: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+2021-08-12 15:36:12.335743: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-12 15:36:12.335789: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-12 15:36:14.866118: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-12 15:36:14.866171: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-12 15:36:14.866199: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-12 15:36:14.866447: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 135-497-679
+127.0.0.1 - - [12/Aug/2021 15:36:27] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:36:28] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+ç ^C(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ 
+(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ python main.py~[K
+2021-08-12 15:38:09.990694: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-12 15:38:09.990741: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-12 15:38:12.608071: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-12 15:38:12.608123: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-12 15:38:12.608150: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-12 15:38:12.608384: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+2021-08-12 15:38:15.103742: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-12 15:38:15.103801: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-12 15:38:17.689206: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-12 15:38:17.689254: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-12 15:38:17.689283: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-12 15:38:17.689512: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 135-497-679
+127.0.0.1 - - [12/Aug/2021 15:38:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:38:42] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:42] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:38:43] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:05] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:05] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:05] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:05] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:05] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:05] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:05] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:06] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:06] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:06] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:06] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:06] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:06] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:06] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:06] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:06] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:42] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:43] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:43] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:43] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:43] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:43] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:43] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 15:39:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+2021-08-12 15:40:30.459116: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-08-12 15:40:30.459614: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2300060000 Hz
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 15:40:30] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is sarcastic!
+127.0.0.1 - - [12/Aug/2021 15:40:30] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is sarcastic!
+127.0.0.1 - - [12/Aug/2021 15:40:30] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 15:40:30] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+clear
+127.0.0.1 - - [12/Aug/2021 17:06:33] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:06:33] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+conda activate myenv
+127.0.0.1 - - [12/Aug/2021 17:06:59] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:06:59] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:06:59] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:06:59] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:06:59] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:06:59] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:06:59] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:06:59] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:06:59] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:07:00] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:07:01] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:07:01] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:07:01] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:07:01] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:07:03] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:07:03] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1" 200 -
+(base) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ conda activate myenv2
+(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ python main.py
+2021-08-12 17:34:20.334623: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-12 17:34:20.334670: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-12 17:34:26.470208: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-12 17:34:26.470258: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-12 17:34:26.470295: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-12 17:34:26.470528: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+2021-08-12 17:34:29.133182: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-08-12 17:34:29.133224: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[nltk_data] Downloading package wordnet to /projects/b7079eaa-6991-47f
+[nltk_data]     3-a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /projects/b7079eaa-6991-47f3-
+[nltk_data]     a04a-aa855f33bee7/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2021-08-12 17:34:31.716137: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-08-12 17:34:31.716184: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-12 17:34:31.716217: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (1593d4d2e6c4): /proc/driver/nvidia/version does not exist
+2021-08-12 17:34:31.716448: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Try to open
+
+    https://cocalc3.ai-camp.org/b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 135-497-679
+127.0.0.1 - - [12/Aug/2021 17:34:37] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:38] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:34:53] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+2021-08-12 17:35:45.717550: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-08-12 17:35:45.721827: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2300060000 Hz
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:35:46] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:35:46] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:36:37] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:36:37] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:36:40] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:36:40] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:36:43] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:36:43] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:37:02] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:37:02] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:50:07] "GET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [12/Aug/2021 17:50:07] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:07] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/Home.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:07] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:07] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/12b467_a4ceef0f338c41c7885cb083ea36a00f_mv2_d_1742_1743_s_2.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/removal.ai_tmp-6112939089159.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/text_gen.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_1.11.37_PM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AICampWordle21.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/MawaPicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/TerrencePicture4.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/Screen_Shot_2021-08-11_at_11.50.07_AM.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AakashPicture3.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/JesslynPicture2.jpg HTTP/1.1[0m" 304 -
+127.0.0.1 - - [12/Aug/2021 17:50:08] "[36mGET /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/static/images/AveryPicture3.jpg HTTP/1.1[0m" 304 -
+This news headline is sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:51:17] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:51:17] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:51:46] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+This news headline is not sarcastic!
+127.0.0.1 - - [12/Aug/2021 17:51:46] "POST /b7079eaa-6991-47f3-a04a-aa855f33bee7/port/12345/generate_text HTTP/1.1" 200 -
+^C(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ clear
+[H[J(myenv2) ]0;~/Final_Project/nlp-writer-scaffold/app[01;34m~/Final_Project/nlp-writer-scaffold/app[00m$ 
